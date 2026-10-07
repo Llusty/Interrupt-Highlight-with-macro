@@ -1,0 +1,22 @@
+## Interface: 120100
+## Title: Interrupt Highlight
+## Notes: Highlights ready interrupts when an enemy is casting an interruptible spell.
+## Author: Interrupt Highlight contributors
+## Version: 1.0.0
+## SavedVariables: InterruptHighlightDB
+## Dependencies: Blizzard_ActionBar
+## IconTexture: Interface\AddOns\InterruptHighlight\Media\icon
+## Category-enUS: Combat
+## Category-deDE: Kampf
+## Category-frFR: Combat
+## Category-esES: Combate
+## X-License: MIT
+## X-Website: https://www.curseforge.com/wow/addons/interrupt-highlight
+
+Core.lua
+Detection.lua
+GlowRenderer.lua
+CooldownManager.lua
+MacroManager.lua
+Options.lua
+Minimap.lua
