@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.1
+
+WoW Retail 12.1.5 compatibility update.
+
+- Add Interface 120105 while retaining 120100 for Retail 12.1.0.
+- Update addon version metadata to 1.0.1.
+- No new features or changes to appearance, options, focus macros, or runtime logic.
+- User reports 1.0.0 works on 12.1.5 without Lua errors; this update addresses the out-of-date declaration.
+
 ## 1.0.0
 
 First public release.

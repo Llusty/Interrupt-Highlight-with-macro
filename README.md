@@ -1,4 +1,4 @@
-# Interrupt Highlight 1.0.0
+# Interrupt Highlight 1.0.1
 
 Interrupt Highlight is a World of Warcraft Retail addon that highlights your ready true interrupt when a watched enemy casts an interruptible spell. It supports action bars and Blizzard's Cooldown Manager.
 
@@ -45,7 +45,7 @@ Global action-button discovery is bounded to 10,000 visited frames and runs on s
 
 Cooldown Manager discovery uses active viewer item pools. Its cache rebuilds outside combat, defers combat requests, skips secret or inaccessible spell IDs, and clears when Blizzard's viewer is disabled. Cast interruptibility, cooldown readiness, and spell range use renderer alpha gates for restricted values. Unsupported or unavailable readiness/range data hides the glow.
 
-Retail 12.1.0 (Interface 120100). Standalone, with no bundled addon libraries or EllesmereUI dependency. Blizzard UI components are provided by the game. Third-party action bars are discovered through standard action-slot metadata; unusual or late-created buttons may require a manual scan. All-visible mode depends on active nameplates and does not detect every enemy in the area. The addon highlights opportunities; it does not choose or interrupt a target automatically.
+Retail 12.1.5 and 12.1.0 (Interface 120105, 120100). Version 1.0.1 is a compatibility metadata update; highlighting, appearance, options, focus macros, and runtime behavior are unchanged from 1.0.0. Standalone, with no bundled addon libraries or EllesmereUI dependency. Blizzard UI components are provided by the game. Third-party action bars are discovered through standard action-slot metadata; unusual or late-created buttons may require a manual scan. All-visible mode depends on active nameplates and does not detect every enemy in the area. The addon highlights opportunities; it does not choose or interrupt a target automatically.
 
 The supplied icon is used by the addon listing and minimap button. Blizzard texture paths and atlas names refer to resources already in the game client.
 

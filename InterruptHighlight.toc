@@ -1,8 +1,8 @@
-## Interface: 120100
+## Interface: 120105, 120100
 ## Title: Interrupt Highlight
 ## Notes: Highlights ready interrupts when an enemy is casting an interruptible spell.
 ## Author: Interrupt Highlight contributors
-## Version: 1.0.0
+## Version: 1.0.1
 ## SavedVariables: InterruptHighlightDB
 ## Dependencies: Blizzard_ActionBar
 ## IconTexture: Interface\AddOns\InterruptHighlight\Media\icon

@@ -1,7 +1,7 @@
 local ADDON_NAME, IH = ...
 
 IH.name = ADDON_NAME
-IH.version = "1.0.0"
+IH.version = "1.0.1"
 IH.startupScanScheduled = false
 IH.startupScanDone = false
 IH.startupScanAttempts = 0
